@@ -21,40 +21,39 @@
             color: #ffffff;           /* Texto branco */
             padding: 20px;            /* Espaçamento interno */
         }
-        
-        /* Links */
         .banner a {
             color: #ffffff;           /* Link branco */
             text-decoration: none;    /* Remove sublinhado */
             font-size: 1em;           /* Tamanho do texto do link */
             font-weight: normal;      /* Normal */
         }
-
         .banner a:hover {
             text-decoration: none;    /* Remove sublinhado */
             font-weight: bold;        /* Negrito ao passar o mouse */
         }
-
-        /* Texto do banner */
         .banner h1 {
             font-size: 2em;           /* Tamanho do texto */
-            font-weight: light;      /* Light */
+            font-weight: lighter;     /* Light */
         }
-
-        h2 {
+        
+        /* Estilos do maintext */
+        .maintext {
+            padding: 20px;            /* Espaçamento interno */
+        }
+        .maintext h2 {
             color: #444;
         }
-        ul, p {
+        .maintext ul, p {
             margin: 15px 0;
         }
-        ul {
+        .maintext ul {
             padding-left: 20px;
         }
-        a {
+        .maintext a {
             color: #007BFF;
             text-decoration: none;
         }
-        a:hover {
+        .maintext a:hover {
             text-decoration: underline;
         }
     </style>
@@ -70,10 +69,10 @@
         <h1>My developer website</h1>
     </div>
     
-    <span style="padding: 20px;">  
-    <h2>Welcome to my website!</h2>
-    <p>This is just a basic website for now.</p>
-    <p>It will be improved in the near future. Write my words... This is 2024-11-12... :-)</p>
-    </span>
+    <div class="maintext">
+        <h2>Welcome to my website!</h2>
+        <p>This is just a basic website for now.</p>
+        <p>It will be improved in the near future. Write my words... This is 2024-11-12... :-)</p>
+    </div>
 </body>
 </html>
