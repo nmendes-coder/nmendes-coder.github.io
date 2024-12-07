@@ -65,7 +65,7 @@
     <div class="banner">
         <p><span style="color: gray; font-size:0.8em;">Nuno Mendes 10 coder website</span></p>
         <!-- Menu -->
-        <p><a href="index.html"><strong>Main</strong></a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="hedgehogdropgame.html">Hedgehog Drop Game</a></p>
+        <p><a href="index.html">Main</a>&nbsp;&nbsp;|&nbsp;&nbsp;<strong><a href="hedgehogdropgame.html">Hedgehog Drop Game</a></strong></p>
         <!-- Texto principal -->
         <br>
         <h1>Hedgehog Drop Game page</h1>
