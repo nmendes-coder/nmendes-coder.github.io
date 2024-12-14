@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Website for The God Slayer game, by Nuno Mendes 10.">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet"> 
+    <title>My developer website</title>
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            line-height: normal;
+            background-color: #f9f9f9;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        /* Estilos do banner */
+        .banner {
+            background-color: #000000; /* Cor preta */
+            color: #ffffff;           /* Texto branco */
+            padding: 20px;            /* Espaçamento interno */
+        }
+        .banner a {
+            color: #ffffff;           /* Link branco */
+            text-decoration: none;    /* Remove sublinhado */
+            font-size: 1em;           /* Tamanho do texto do link */
+            font-weight: normal;      /* Normal */
+        }
+        .banner a:hover {
+            text-decoration: none;    /* Remove sublinhado */
+            font-weight: bold;        /* Negrito ao passar o mouse */
+        }
+        .banner h1 {
+            font-size: 2em;           /* Tamanho do texto */
+            font-weight: lighter;     /* Light */
+        }
+        
+        /* Estilos do maintext */
+        .maintext {
+            padding: 20px;            /* Espaçamento interno */
+        }
+        .maintext h2 {
+            font-size: 1.2em;           /* Tamanho do texto */
+            color: #444;
+        }
+        .maintext ul {
+            margin: 20px;
+            padding-left: 40px;
+        }
+        .maintext li {
+            padding: 0px 0px 10px 0px;
+        }
+        .maintext a {
+            color: #485fc7;
+            text-decoration: none;
+        }
+        .maintext a:hover {
+            text-decoration: none;    /* Remove sublinhado */
+        }
+    </style>
+</head>
+<body>
+    <!-- Banner -->
+    <div class="banner">
+        <p><span style="color: gray; font-size:0.8em;">Nuno Mendes 10 coder website</span></p>
+        <!-- Menu -->
+        <p><a href="index.html">Main</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="hedgehogdropgame.html">Hedgehog Drop Game</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="thegodslayergame.html"><strong>The God Slayer Game</strong></a></p>
+        <!-- Texto principal -->
+        <br>
+        <h1>The God Slayer Game page</h1>
+    </div>
+    
+    <div class="maintext">
+        <h2>Welcome to The God Slayer Game page!</h2>
+        <br>
+        <!-- <p>You can access to the game Privacy Policies here: <a href="privacypolicy-hedgehogdrop.html">Privacy Policy</a>.</p> -->
+        <p>Coming soon...</p>
+        <br>
+        <p><span style="color: lightgray; font-size:0.8em;">First published on 2024-12-14&nbsp;&nbsp;|&nbsp;&nbsp;</span><span style="color: gray; font-size:0.8em;">Last updated on 2024-12-14</span></p>
+    </div>
+</body>
+</html>
